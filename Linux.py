@@ -7,7 +7,7 @@ from textblob import TextBlob
 os.system('clear')
 
 #User Input for rating
-Rating=raw_input("what is your rating:")
+Rating=raw_input("what is your review:")
 #convert to TextBlob String
 rating= TextBlob(Rating)
 #covert out of 100 to out of 5
